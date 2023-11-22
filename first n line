@@ -1,0 +1,5 @@
+filename="python1"
+with open(filename,"r")as file:
+    for line in file:
+        first_line = line.strip()
+        print("The first line of the file is:", first_line)
