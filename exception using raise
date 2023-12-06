@@ -1,0 +1,6 @@
+try:
+    num=int(input("enter a positive interger:"))
+    if(num<=0):
+        raise ValueError("that is a negative number !")
+except ValueError as e:
+            print(e)
