@@ -1,0 +1,6 @@
+import csv
+with open('people.csv', 'w', newline='') as file:
+    writer = csv.writer(file)
+    writer.writerow(["name", "age", "mark"])
+    writer.writerow([1, "sini", "20", "80"])
+    writer.writerow([2, "drushya", "23", "82"])
